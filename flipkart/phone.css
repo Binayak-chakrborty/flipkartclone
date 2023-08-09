@@ -1,0 +1,52 @@
+body{
+ width:fit-content;
+display: block;
+ margin: auto;
+
+ 
+}
+#searchbar{
+ width: 200px;
+ height: 80px;
+
+}
+#accesszone {
+ display: flex;
+ width: 90%;
+ overflow-x: scroll;
+ 
+}
+#accesszone img{
+ height: 20vh;
+ width: 20vw;
+}
+#accesszone ::-webkit-scrollbar{
+ width: 0px;
+}
+.box img{
+ height: 30vh;
+ width: 30vw;
+}
+
+#container{
+ width: 100%;
+ display: block;
+ 
+}
+.item {
+ margin: auto;
+
+ width: 100%;
+ overflow-x: scroll;
+}
+.item::-webkit-scrollbar{
+ width: 3px;
+}
+#container2::-webkit-scrollbar{
+ width: 2px;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+}
